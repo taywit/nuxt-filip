@@ -9,7 +9,7 @@
       <div class="media">
         <div class="media-content">
           <p class="title is-4"> {{course.title | shortenText(35)}} </p>
-          <p class="subtitle is-6"><i>{{course.createdAt}}</i></p>
+          <p class="subtitle is-6"><i>{{course.status}}</i></p>
         </div>
       </div>
       <div class="content">
