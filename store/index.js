@@ -5,7 +5,7 @@
   }
 
   export const actions ={
-    async nuxtServerInit({commit , dispatch}){
+    async nuxtServerInit({dispatch}){
       await dispatch('auth/getAuthUser')
       .catch(() => console.log('Not Authenticated!'))
     }
